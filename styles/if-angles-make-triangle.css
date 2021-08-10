@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: none;
+}
+
+:root {
+  --primary-color: #0A3F48;
+  --secondary-color: #87FFCD
+}
+
+body {
+
+  background-image: linear-gradient(to left, rgb(97, 204, 204), whitesmoke);
+}
+
+.container {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 10px;
+  padding: 100px;
+  font-size: 20px;
+  overflow: none;
+  text-align: center;
+  box-shadow: 2px 2px 10px
+}
+
+.container-child {
+  margin-top: 15px;
+}
+
+img {
+  position: relative;
+  top: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+input {
+  width: 85px;
+  height: 40px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border: 2px black solid;
+  border-radius: 5px;
+  cursor: text
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.output {
+  display: none;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 10px;
+  padding: 100px;
+  font-size: 20px;
+  line-height: 40px;
+  overflow: none;
+  text-align: center;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+
+
+}
+
+button {
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 40px;
+  border: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #2f96f3;
+}
+
+.output__button {
+  font-size: 15px;
+  margin-top: 80px;
+  margin-top: 30px;
+}
+
+small {
+  display: block;
+  margin-top: 50px;
+}

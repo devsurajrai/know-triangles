@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area Calculator</title>
+  <link rel="stylesheet" href="../styles/area.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Area of a Triangle</h1>
+    <p>Please enter the height and base of the triangle in cm.</p>
+    <img id="triangle-area-img" src="../media/Triaggle Area.png" alt="">
+    <div class="container-child">
+      <span id="half">1/2 </span><span>X</span>
+      <input type="number" class="base" placeholder="Base">
+      <span>X</span>
+      <input type="number" class="height" placeholder="Height"><br>
+      <div class="result-div">
+        <span class="result">Area =</span>
+        <input type="number" id="result" class="result" readonly><span class="result"> sq. cm</span>
+      </div>
+    </div>
+    <p class="error"></p><br>
+    <button id="calculate">Calculate</button>
+    <button id="re-calculate">Re-Calculate</button><br>
+    <a href="../index.html"><img src="https://img.icons8.com/color/48/000000/circled-left-2--v2.png" /></a>
+
+  </div>
+  <script src="../scripts/area.js"></script>
+</body>
+
+</html>

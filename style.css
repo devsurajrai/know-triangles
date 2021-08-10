@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px
+}
+
+:root {
+  --primary-color: #0A3F48;
+  --secondary-color: #87FFCD
+}
+
+body {
+  background-image: linear-gradient(to left, rgb(97, 204, 204), whitesmoke);
+  height: 100vh;
+}
+
+
+h1 {
+  font-family: Quicksand;
+  font-size: 50px;
+  text-align: center;
+  color: var(--primary-color);
+  line-height: 40px;
+}
+
+span {
+  font-size: 20px;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 89%;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  transform: rotate(45deg);
+  margin-right: 100px;
+  background-color: var(--primary-color);
+  overflow: none;
+}
+
+.dashboard__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 6px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: bold
+}
+
+.dashboard__items:hover {
+  height: 105px;
+  width: 105px;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  transition: all .2s;
+}
+
+.dashboard__items--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  min-width: 100px;
+  margin-left: 10px;
+  transform: rotate(315deg);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-self: left;
+  margin-left: 150px;
+  text-align: center;
+  padding: 10px;
+}
+
+.list-no-bullets {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
