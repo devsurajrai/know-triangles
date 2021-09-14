@@ -1,40 +1,70 @@
-<!DOCTYPE html>
+<!DOCTYPE
+  html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/hypotenuse.css">
-  <title>Finding Hypotenuse?</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/hypotenuse.css">
+    <title>
+        Finding Hypotenuse?
+    </title>
 </head>
 
 <body>
-  <div class="container">
+    <div class="container">
+        <h1>
+            Find the Hypotenuse
+        </h1>
+        <br>
 
-    <p>Please enter the two sides 'a' and 'b' of the triangle and the hypotenuse 'c' (third side) will be calculated.
-      Formula used for calculation is :<br><span> <img id="hypotenuse-calc-form" src="../media/pythagoras.jpeg" alt="">
-      </span> </p>
+        <p>
+            Please enter the two sides 'a' and 'b' of the triangle and the hypotenuse 'c' (third side) will be calculated. Formula used for calculation is :
+            <br><span>
+        <img
+          id="hypotenuse-calc-form"
+          src="../media/pythagoras.jpeg"
+          alt="">
+      </span>
+        </p>
 
-    <img id="right-angled-triangle" src="../media/Right-Angled-Triangle.png" alt="">
+        <img id="right-angled-triangle" src="../media/Right-Angled-Triangle.png" alt="">
 
-    <div class="container-child">
-      <sup><input type="number" class="first" placeholder="Side 1"><span id="sup">2</span></sup>
-      <span class="plus-equals">+</span>
-      <sup><input type="number" class="second" placeholder="Side 2"><span id="sup">2</span></sup>
-      <span class="plus-equals">=</span>
-      <sup><input type="text" class="output" placeholder="Side 3" readonly><span id="sup">2</span></sup>
+        <div class="container-child">
+            <sup><input
+          type="number"
+          class="first"
+          placeholder="Side 1"><span
+          id="sup">2</span></sup>
+            <span class="plus-equals">+</span>
+            <sup><input
+          type="number"
+          class="second"
+          placeholder="Side 2"><span
+          id="sup">2</span></sup>
+            <span class="plus-equals">=</span>
+            <sup><input
+          type="text"
+          class="output"
+          placeholder="Side 3"
+          readonly><span
+          id="sup">2</span></sup>
+        </div>
+        <div class="hypotenuse-value">
+            <span>C
+        =</span><input type="number" class="output-sqrt" readonly>
+        </div>
+
+        <p class="input-error-text">
+        </p>
+
+        <button class="container__child--button">Submit</button>
+        <button class="container__child--button-refresh">Refresh</button><br>
+        <a href="../index.html"><img src="https://img.icons8.com/color/48/000000/circled-left-2--v2.png alt=" home-button-arrow "" /></a>
     </div>
-    <div class="hypotenuse-value"><span>C =</span><input type="number" class="output-sqrt" readonly></div>
-
-    <p class="input-error-text"></p>
-
-    <button class="container__child--button">Submit</button>
-    <button class="container__child--button-refresh">Refresh</button><br>
-    <a href="../index.html"><img src="https://img.icons8.com/color/48/000000/circled-left-2--v2.png alt="
-        home-button-arrow"" /></a>
-  </div>
-  <script src="../scripts/hypotenuse.js"></script>
+    <script src="../scripts/hypotenuse.js">
+    </script>
 </body>
 
 </html>
