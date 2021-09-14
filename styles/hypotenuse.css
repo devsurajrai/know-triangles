@@ -1,109 +1,106 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
-  --primary-color: #0A3F48;
-  --secondary-color: #87FFCD
+    --primary-color: #0A3F48;
+    --secondary-color: #87FFCD
 }
 
 body {
-  background-image: linear-gradient(to left, rgb(97, 204, 204), whitesmoke);
+    background-image: linear-gradient(to left, rgb(97, 204, 204), whitesmoke);
 }
 
 .container {
-  background-color: white;
-  width: 50%;
-  height: 50%;
-  margin: auto;
-  margin-top: .5%;
-  border-radius: 10px;
-  padding: 88px;
-  padding-top: 40px;
-  font-size: 20px;
-  line-height: 30px;
-  overflow: none;
-  text-align: center;
-  box-shadow: 2px 2px 10px
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: .5%;
+    border-radius: 10px;
+    padding: 88px;
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    overflow: none;
+    box-shadow: 2px 2px 10px;
+    text-align: center;
 }
 
 img {
-  position: relative;
-  top: 30px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
+    position: relative;
+    top: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 input {
-  width: 85px;
-  height: 40px;
-  margin: 20px;
-  margin-right: 2px;
-  font-size: 20px;
-  text-align: center;
-  padding: 5px;
-  border: 2px black solid;
-  border-radius: 5px;
-  cursor: text
+    width: 85px;
+    height: 40px;
+    margin: 20px;
+    margin-right: 2px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 5px;
+    cursor: text
 }
 
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
-
 
 button {
-  position: relative;
-  top: 20px;
-  margin-bottom: 20px;
-  width: 80px;
-  height: 40px;
-  border: hidden;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 18px;
-  background-color: #2f96f3;
-  margin-left: 20px
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 40px;
+    border: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #2f96f3;
+    margin-left: 20px
 }
 
-
 #hypotenuse-calc-form {
-  position: relative;
-  top: -10px;
-  height: 60px;
-  width: 90px;
-  padding-bottom: 8px;
+    position: relative;
+    top: -10px;
+    height: 60px;
+    width: 90px;
+    padding-bottom: 8px;
 }
 
 #right-angled-triangle {
-  position: relative;
-  top: -10px;
-  bottom: -20px;
-  height: 150px;
-  width: 300px;
-  padding-bottom: 8px;
-  border-radius: 50%;
-
+    position: relative;
+    top: -10px;
+    bottom: -20px;
+    height: 150px;
+    width: 300px;
+    padding-bottom: 8px;
+    border-radius: 50%;
 }
 
 #sup {
-  display: inline-block;
-  position: relative;
-  top: -25px
+    display: inline-block;
+    position: relative;
+    top: -25px
 }
 
 .plus-equals {
-  display: inline-block;
-  position: relative;
-  top: -8px
+    display: inline-block;
+    position: relative;
+    top: -8px
 }
 
 .hypotenuse-value {
-  display: none;
+    display: none;
 }
 
 .display-block {
-  display: block;
+    display: block;
 }
