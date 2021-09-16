@@ -1,5 +1,4 @@
-<!DOCTYPE
-  html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,61 +6,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/hypotenuse.css">
-    <title>
-        Finding Hypotenuse?
-    </title>
+    <title>Finding Hypotenuse?</title>
 </head>
 
 <body>
     <div class="container">
-        <h1>
-            Find the Hypotenuse
-        </h1>
+        <h1>Find the Hypotenuse</h1>
         <br>
-
-        <p>
-            Please enter the two sides 'a' and 'b' of the triangle and the hypotenuse 'c' (third side) will be calculated. Formula used for calculation is :
-            <br><span>
-        <img
-          id="hypotenuse-calc-form"
-          src="../media/pythagoras.jpeg"
-          alt="">
-      </span>
+        <p>Please enter the two sides 'a' and 'b' of the triangle and the hypotenuse 'c' (third side) will be calculated. Formula used for calculation is :<br>
+            <span>
+                <img
+                    id="hypotenuse-calc-form"
+                    src="../media/pythagoras.jpeg"
+                    alt=""
+                >
+            </span>
         </p>
 
         <img id="right-angled-triangle" src="../media/Right-Angled-Triangle.png" alt="">
 
         <div class="container-child">
-            <sup><input
-          type="number"
-          class="first"
-          placeholder="Side 1"><span
-          id="sup">2</span></sup>
+            <sup>
+              <input
+                  type="number"
+                  class="first"
+                  placeholder="Side 1">
+                  <span id="sup">
+                    2
+                  </span>
+            </sup>
             <span class="plus-equals">+</span>
-            <sup><input
-          type="number"
-          class="second"
-          placeholder="Side 2"><span
-          id="sup">2</span></sup>
+            <sup>
+              <input
+                  type="number"
+                  class="second"
+                  placeholder="Side 2">
+                  <span id="sup">
+                    2
+                  </span>
+              </sup>
             <span class="plus-equals">=</span>
-            <sup><input
-          type="text"
-          class="output"
-          placeholder="Side 3"
-          readonly><span
-          id="sup">2</span></sup>
+            <sup>
+              <input
+                  type="text"
+                  class="output"
+                  placeholder="Side 3"
+                  readonly>
+                  <span id="sup">
+                    2
+                  </span>
+            </sup>
         </div>
         <div class="hypotenuse-value">
-            <span>C
-        =</span><input type="number" class="output-sqrt" readonly>
+            <span>C =</span>
+            <input type="number" class="output-sqrt" readonly>
         </div>
 
-        <p class="input-error-text">
-        </p>
+        <p class="input-error-text"></p>
 
         <button class="container__child--button">Submit</button>
         <button class="container__child--button-refresh">Refresh</button><br>
         <a href="../index.html"><img src="https://img.icons8.com/color/48/000000/circled-left-2--v2.png alt=" home-button-arrow "" /></a>
+
+        <footer class="footer">
+          <div class="footer-header">
+              <span style="font-size: 20px;">Reach me</span> | devsurajrai@gmail.com
+          </div>
+          <ul class=" list-no-bullets ">
+              <li class=" list-item-inline ">
+                  <a class="link footer-link-size" href="https://github.com/devsurajrai" target="blank">
+                      <img class="social-icons"src="https://img.icons8.com/ios-filled/50/000000/github.png" />
+                  </a>
+              </li>
+              <li class=" list-item-inline">
+                  <a class="link footer-link-size" href="https://www.instagram.com/_surajrai_z/" target="blank">
+                      <img class="social-icons"src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" />
+                  </a>
+              </li>
+              <li class=" list-item-inline">
+                  <a class="link footer-link-size" href="https://www.linkedin.com/in/sr3688/" target="blank">
+                      <img class="social-icons"src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" />
+                  </a>
+              </li>
+              <li class="link list-item-inline">
+                  <a class="link footer-link-size" href="https://twitter.com/surajrai_z" target="blank">
+                      <img class="social-icons"src="https://img.icons8.com/ios-filled/50/000000/twitter.png" />
+                  </a>
+              </li>
+          </ul>
+      </footer>
     </div>
     <script src="../scripts/hypotenuse.js">
     </script>
